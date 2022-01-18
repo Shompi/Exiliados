@@ -27,7 +27,6 @@ export default function Muki({ commands, guilds }) {
         <title>Muki</title>
         <link rel="icon" href="/Muki.png"></link>
       </Head>
-      <Header />
       <div className="grid grid-cols-1 pt-24 h-screen mx-32 text-center">
         <div>
           <div id="muki-title" className="flex gap-4 place-content-center">

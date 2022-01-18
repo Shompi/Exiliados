@@ -4,7 +4,6 @@ export default function Home() {
 
   return (
     <div>
-      <Header />
       <div className="grid place-content-center h-screen w-screen text-center">
         <div>
           <h1 className="text-6xl">LANDING PAGE</h1>
