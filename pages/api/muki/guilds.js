@@ -1,5 +1,4 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import fs from "fs";
 import keyv from "keyv";
 
 const GuildsDatabase = new keyv('sqlite://guilds.sqlite', { namespace: 'guilds' });

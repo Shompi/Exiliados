@@ -13,7 +13,7 @@ export default function Guild({ ownerTag, memberCount, channelCount, iconURL, na
           className="rounded-full" />
       </div>
       <div id="guild-name">
-        <h1 className="font-semibold">{name}</h1>
+        <h1 className="font-light">{name}</h1>
       </div>
     </div>
   )
