@@ -1,16 +1,16 @@
 import Link from "next/link";
 
-export default function Memes() {
+export default function Imageboard() {
   return (
     <>
-      <div id="memes-container" className="flex flex-col items-center justify-around">
+      <div id="memes-container" className="flex flex-col items-center justify-around pt-16">
 
-        <div id="center-container" className="pt-16">
+        <div id="center-container">
           Vayanse pa la verga
         </div>
       </div>
 
-      <Link href={"/memes/upload"}>
+      <Link href={"/imageboard/upload"}>
         <button
           className="fixed flex 
             justify-center
